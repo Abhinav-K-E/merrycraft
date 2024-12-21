@@ -1,28 +1,16 @@
 import React from "react";
 import "./Nav.scss";
 
+import MULOGO from "../../assets/logos/mu.svg";
+import ILLU from "../../assets/logos/illu.svg";
+import DEV from "../../assets/logos/mulearn-campus.svg";
+
 const Nav = () => {
   return (
     <nav className="nav">
-      <div className="left">
-        <div className="logo">Hack.dev</div>
-      </div>
-      <div className="right">
-        <div className="nav-trigger">
-          <input
-            hidden=""
-            className="check-icon"
-            id="check-icon"
-            name="check-icon"
-            type="checkbox"
-          />
-          <label className="icon-menu" htmlFor="check-icon">
-            <div className="bar bar--1" />
-            {/* <div className="bar bar--2" /> */}
-            <div className="bar bar--3" />
-          </label>
-        </div>
-      </div>
+      <img src={MULOGO} alt="" />
+      <img src={ILLU} alt="" />
+      <img src={DEV} alt="" />
     </nav>
   );
 };

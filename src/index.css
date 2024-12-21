@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'CustomFont';
-  src: url('./assets/font/fortnite.otf') format('opentype');
+  src: url('./assets/font/GulfsDisplay-Normal.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,9 +19,9 @@ body{
 }
 
 :root{
-  --primary-bg:#EDE4D7;
+  --primary-bg:#801611;
   --sec-bg:#221E15;
-  --primary-txt:#0C0C0C;
+  --primary-txt:#fff;
 
   --customfont:'CustomFont';
   --comicFont:"Comic Neue", cursive;

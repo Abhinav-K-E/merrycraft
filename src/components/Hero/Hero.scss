@@ -1,15 +1,18 @@
 .hero {
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 
   .img-container {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -100px;
   }
   .txt-grp {
     display: flex;
@@ -22,16 +25,18 @@
   }
   .hero-txt {
     font-family: var(--customfont);
-    font-size: 120px;
+    font-size: 160px;
     text-align: center;
-    color: rgba(80, 39, 9, 0.18);
+    color: #fff;
   }
   .hack-txt {
-    font-size: 160px;
+    margin-top: -80px;
+    font-size: 120px;
   }
   .hero-img {
     z-index: 99;
     margin-top: 40px;
+    width: 400px;
   }
   .hero-btn {
     display: flex;
@@ -39,19 +44,20 @@
     justify-content: center;
     gap: 20px;
     font-family: var(--customfont);
-    color: #fff;
-    font-size: 24px;
-    background-color: var(--sec-bg);
-    padding: 24px 32px;
-    border-radius: 100px;
-    letter-spacing: 0.05rem;
-    box-shadow: -4px 4px 0px #f74e2d;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    color: var(--primary-bg);
+    font-size: 32px;
+    background-color: #fff;
+    padding: 20px 60px;
+    transform: rotate(-5deg);
     z-index: 999;
+    margin-top: -20px;
+    cursor: pointer;
   }
-  .hero-btn:hover {
-    transform: scale(0.95);
-    transition: all 0.3s ease-in-out;
+  .snow{
+    position: absolute;
+    bottom: -300px;
+    width: 100%;
+    margin-top: 400px;
+    opacity: .6;
   }
 }
