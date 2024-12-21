@@ -15,11 +15,6 @@ const About = () => {
           frame.
         </div>
       </div>
-      <div className="right">
-        <div className="img-box">
-
-        </div>
-      </div>
     </div>
   );
 };
