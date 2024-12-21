@@ -3,11 +3,19 @@ import Nav from "../../components/Nav/Nav";
 import Hero from "../../components/Hero/Hero";
 import About from "../../components/About/About";
 import "./Home.scss";
-import RULESIMG from '../../assets/images/rules.png'
-import PRIZE from '../../assets/images/prize.svg'
-import CALL from '../../assets/images/call.png'
+import RULESIMG from "../../assets/images/rules.png";
+import PRIZE from "../../assets/images/prize.svg";
+import CALL from "../../assets/images/call.png";
+import QN from "../../assets/images/qn.svg";
 
 const Home = () => {
+  const rules = [
+    "Align card with the theme.",
+    "Use Canva, Figma, or Photoshop.",
+    "One card per participant.",
+    "Submit via [Airtable Link] (JPEG, PNG, PDF, AI, PSD).",
+    "Deadline: [Insert Date].",
+  ];
   return (
     <div className="home-page">
       <Nav data-scroll />
@@ -18,6 +26,14 @@ const Home = () => {
           <div className="guide-head">
             <img src={RULESIMG} alt="" className="head-img" />
             Rules & Guidelines
+          </div>
+          <div className="guide-lines">
+            {rules.map((item) => (
+              <div className="list">
+                <img src={QN} alt="" className="qn" />
+                {item}
+              </div>
+            ))}
           </div>
           <div className="prizee">
             <img className="prize-img" src={PRIZE} alt="" />
