@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="about-sec">
       <div className="left">
-        <div className="sec-head">What is this ?</div>
+        <div className="sec-head">Merry Craft ??</div>
         <div className="about-para">
           <span className="bold">"Build for Kozhikode" </span>
           is a national-level 24hr hackathon conducted by St. Joseph’s College
