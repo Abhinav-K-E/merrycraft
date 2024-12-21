@@ -1,0 +1,45 @@
+.about-sec {
+  width: 100%;
+  min-height: 400px;
+  display:flex;
+  justify-content: center;
+  gap: 120px;
+  padding: 40px 60px;
+  background-color: transparent;
+
+  .left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 50%;
+  }
+  .about-para{
+    font-size: 24px;
+    color: #fff;
+    line-height: 2.4rem;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-box {
+    width: 400px;
+    height: 400px;
+    background: url("../../assets/images/kozhikode.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 20px;
+    box-shadow: -8px 8px 0px #c5c5c52b;
+    border: 1px solid #fff;
+  }
+}
+
+.sec-head {
+  font-family: var(--customfont);
+  font-size: 60px;
+  color: #fff;
+}

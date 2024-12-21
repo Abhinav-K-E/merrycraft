@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('./assets/font/fortnite.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color: var(--primary-bg);
+  font-family: var(--comicFont);
+}
+
+:root{
+  --primary-bg:#EDE4D7;
+  --sec-bg:#221E15;
+  --primary-txt:#0C0C0C;
+
+  --customfont:'CustomFont';
+  --comicFont:"Comic Neue", cursive;
+}
