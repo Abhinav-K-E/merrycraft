@@ -54,7 +54,6 @@ const Home = () => {
               mulearndevagiri@gmail.com
             </a>
           </div>
-          <img src={SNOW} className="snow" alt="" />
         </div>
       </div>
       
