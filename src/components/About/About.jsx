@@ -1,18 +1,19 @@
 import React from "react";
-import './About.scss'
+import "./About.scss";
 const About = () => {
   return (
     <div className="about-sec">
       <div className="left">
         <div className="sec-head">Merry Craft ??</div>
         <div className="about-para">
-          <span className="bold">"Build for Kozhikode" </span>
-          is a national-level 24hr hackathon conducted by St. Joseph’s College
-          Devagiri, calicut. A hackathon is a collaborative event where people
-          work together to solve a problem or create something new in a short
-          time frame A hackathon is a collaborative event where people work
-          together to solve a problem or create something new in a short time
-          frame.
+          <span className="bold">"Merry Craft" </span>
+           is a gift card design competition hosted by MuLearn
+          Devagiri in collaboration with MuLearn Foundation, as part of
+          Illμminate 2024 - the largest Christmas-based skill festival. This
+          creative initiative invites participants to design unique Christmas
+          gift cards that capture the holiday spirit. The event aims to foster
+          creativity, unite communities, and celebrate the festive season with a
+          fusion of art, innovation, and joy.
         </div>
       </div>
     </div>
