@@ -8,6 +8,8 @@ import PRIZE from "../../assets/images/prize.svg";
 import CALL from "../../assets/images/call.png";
 import QN from "../../assets/images/qn.svg";
 
+import SNOW from '../../assets/images/snow.svg'
+
 const Home = () => {
   const rules = [
     "Align card with the theme.",
@@ -44,8 +46,18 @@ const Home = () => {
             <img src={CALL} alt="" className="head-img" />
             contact Us
           </div>
+          <div className="grp">
+            <a href="tel:+919895467969" className="contact-btn">
+              Abhinav : 9895467969
+            </a>
+            <a href="mailto:mulearndevagiri@gmail.com" className="email-btn">
+              mulearndevagiri@gmail.com
+            </a>
+          </div>
+          <img src={SNOW} className="snow" alt="" />
         </div>
       </div>
+      
     </div>
   );
 };
