@@ -94,19 +94,19 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding: 60px;
-  margin-top: 100px;
+  padding: 2vw;
+  margin-top: 15vw;
 }
 
 .guide-head{
-  font-size: 40px;
+  font-size: 4vw;
   color: var(--primary-bg);
   font-family: var(--customfont);
   background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 40px;
+  padding: 1vw 3vw;
   position: relative;
   max-width: fit-content;
   transform: rotate(-5deg);
@@ -115,9 +115,9 @@
 
 .head-img{
   position: absolute;
-  width: 200px;
-  top: -200px;
-  left: -40px;
+  width: 16vw;
+  top: -16vw;
+  left: -4.6vw;
 }
 
 .prize-img{
@@ -129,7 +129,8 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 60px;
+  padding: 4vw;
+  margin-top: 10vw;
 }
 
 .guide-lines{
@@ -137,16 +138,16 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 40px;
-  padding: 20px 60px;
-  margin-top: 40px;
+  gap: 3.5vw;
+  padding: 1vw 4vw;
+  margin-top: 4vw;
 }
 .list{
   display: flex;
   align-items: center;
   gap: 20px;
   color: #fff;
-  font-size: 32px;
+  font-size: 2.8vw;
   font-weight: 500;
 }
 
@@ -166,7 +167,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px 60px;
+  padding: 4vw 5vw;
   background: #1e1e1e2b;
   border: 1px solid #fff;
   color: #fff;
@@ -180,7 +181,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px 60px;
+  padding: 4vw 5vw;
   background: #fff;
   color: var(--primary-bg);
   font-size: 18px;
