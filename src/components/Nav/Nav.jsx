@@ -8,9 +8,9 @@ import DEV from "../../assets/logos/mulearn-campus.svg";
 const Nav = () => {
   return (
     <nav className="nav">
-      <img src={MULOGO} alt="" />
-      <img src={ILLU} alt="" />
-      <img src={DEV} alt="" />
+      <img src={MULOGO} alt="" className="logo" />
+      <img src={ILLU} alt="" className="logo" />
+      <img src={DEV} alt="" className="logo" />
     </nav>
   );
 };
