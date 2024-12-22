@@ -11,7 +11,7 @@ const About = () => {
           Devagiri in collaboration with MuLearn Foundation, as part of
           Illμminate 2024 - the largest Christmas-based skill festival. This
           creative initiative invites participants to design unique Christmas
-          Christmas cards that capture the holiday spirit. The event aims to foster
+         cards that capture the holiday spirit. The event aims to foster
           creativity, unite communities, and celebrate the festive season with a
           fusion of art, innovation, and joy.
         </div>
