@@ -180,7 +180,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 32px 60px;
+  padding: 32px 40px;
   background: #fff;
   color: var(--primary-bg);
   font-size: 18px;
@@ -191,4 +191,88 @@
 
 a{
   text-decoration: none;
+}
+
+@media (max-width:800px) {
+  .guidelines{
+    padding: 20px;
+  }
+  .guide-lines{
+    padding: 20px;
+  }
+  .list{
+    font-size: 24px;
+  }
+  .prize-img{
+    width: 200px;
+    margin-top: -30px;
+  }
+}
+
+@media (max-width:560px) {
+  .guide-head{
+    font-size: 30px;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .qn{
+    width: 30px;
+  }
+  .guidelines{
+    padding: 20px;
+  }
+  .guide-lines{
+    padding: 20px;
+  }
+  .list{
+    font-size: 20px;
+  }
+  .guidelines-left{
+    gap: 10px;
+    .guide-head{
+      margin-top: 120px;
+    }
+  }
+  .email-btn{
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+  .contact-btn{
+    font-size: 16px;
+    padding: 14px 20px;
+  }
+}
+
+@media (max-width:400px) {
+  .guide-head{
+    font-size: 30px;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .qn{
+    width: 30px;
+  }
+  .guidelines{
+    padding: 20px;
+  }
+  .guide-lines{
+    padding: 20px;
+  }
+  .list{
+    font-size: 20px;
+  }
+  .guidelines-left{
+    gap: 10px;
+    .guide-head{
+      margin-top: 120px;
+    }
+  }
+  .email-btn{
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+  .contact-btn{
+    font-size: 14px;
+    padding: 14px 20px;
+  }
 }
