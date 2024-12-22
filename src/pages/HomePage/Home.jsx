@@ -51,13 +51,13 @@ const Home = () => {
               Abhinav : 9895467969
             </a>
             <a href="mailto:mulearndevagiri@gmail.com" className="email-btn">
-              Mail : mulearndevagiri@gmail.com
+              Email : mulearndevagiri@gmail.com
             </a>
           </div>
         </div>
       </div>
       <footer>
-        <a href="https://abhinav-k-e.github.io/"> Build and Designed by Abhinav K E</a>
+        <a href="https://abhinav-k-e.github.io/"> Built and Designed by Abhinav K E</a>
         <img src={SNOW} className="foot-img" alt="" />
       </footer>
     </div>
