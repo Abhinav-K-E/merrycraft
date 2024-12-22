@@ -15,8 +15,8 @@ const Home = () => {
     "Align card with the theme.",
     "Use Canva, Figma, or Photoshop.",
     "One card per participant.",
-    "Submit via [Airtable Link] (JPEG, PNG, PDF, AI, PSD).",
-    "Deadline: [Insert Date].",
+    "File formats: JPG, PNG, PDF, AI, PSD, GIF, and other formats",
+    "Deadline: 28th December 2024 at 11:59PM ⏰",
   ];
   return (
     <div className="home-page">
