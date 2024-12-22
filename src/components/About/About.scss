@@ -78,3 +78,19 @@
     }
   }
 }
+
+@media (max-width:380px) {
+  .sec-head{
+    font-size: 34px;
+  }
+  .about-sec{
+    .left{
+      max-width: 100%;
+    }
+    .about-para{
+      font-size: 16px;
+      line-height: 1.8rem;
+      padding-inline: 20px;
+    }
+  }
+}
