@@ -51,7 +51,7 @@ const Home = () => {
               Abhinav : 9895467969
             </a>
             <a href="mailto:mulearndevagiri@gmail.com" className="email-btn">
-              mulearndevagiri@gmail.com
+              Mail : mulearndevagiri@gmail.com
             </a>
           </div>
         </div>
