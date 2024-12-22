@@ -13,5 +13,11 @@
 }
 
 .logo{
-  width: 7vw;
+  width: 100px;
+}
+
+@media (max-width: 560px) {
+  .logo{
+    width: 70px;
+  }
 }

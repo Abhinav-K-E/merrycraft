@@ -5,7 +5,6 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  padding-top: 5vw;
 
   .img-container {
     position: relative;
@@ -24,18 +23,18 @@
   }
   .hero-txt {
     font-family: var(--customfont);
-    font-size: 10vw;
+    font-size: 160px;
     text-align: center;
     color: #fff;
   }
   .hack-txt {
-    margin-top: -5vw;
-    font-size: 8vw;
+    margin-top: -80px;
+    font-size: 120px;
   }
   .hero-img {
     z-index: 99;
     margin-top: 40px;
-    width: 24vw;
+    width: 400px;
   }
   .hero-btn {
     display: flex;
@@ -44,20 +43,126 @@
     gap: 20px;
     font-family: var(--customfont);
     color: var(--primary-bg);
-    font-size: 2vw;
+    font-size: 32px;
     background-color: #fff;
-    padding: 1vw 3vw;
+    padding: 20px 60px;
     transform: rotate(-5deg);
     z-index: 999;
     margin-top: -20px;
     cursor: pointer;
   }
-  .snow{
+  .snow {
     position: absolute;
-    bottom: -30vw;
-    left: 0px;
+    bottom: -300px;
     width: 100%;
-    opacity: .6;
-  
+    margin-top: 400px;
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    .hero-txt {
+      font-size: 140px;
+    }
+    .hack-txt {
+      font-size: 110px;
+    }
+    .hero-img {
+      width: 300px;
+      margin-top: 80px;
+    }
+    .snow {
+      position: absolute;
+      bottom: -300px;
+      margin-top: 400px;
+      opacity: 0.6;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .hero {
+    .img-container {
+      margin-top: 60px;
+    }
+    .hero-txt {
+      font-size: 120px;
+    }
+    .hack-txt {
+      font-size: 90px;
+      margin-top: -60px;
+    }
+    .hero-img {
+      width: 240px;
+      margin-top: 80px;
+    }
+    .snow {
+      position: absolute;
+      bottom: -180px;
+      margin-top: 400px;
+      opacity: 0.6;
+    }
+  }
+}
+
+
+@media (max-width: 560px) {
+  .hero {
+    .img-container {
+      margin-top: 60px;
+    }
+    .hero-txt {
+      font-size: 90px;
+    }
+    .hack-txt {
+      font-size: 70px;
+      margin-top: -50px;
+    }
+    .hero-img {
+      width: 240px;
+      margin-top: 60px;
+    }
+    .snow {
+      position: absolute;
+      bottom: -100px;
+      margin-top: 400px;
+      opacity: 0.6;
+    }
+    .hero-btn{
+      font-size: 20px;
+      padding: 10px 30px;
+    }
+  }
+}
+
+
+
+@media (max-width: 400px) {
+  .hero {
+    .img-container {
+      margin-top: 60px;
+    }
+    .hero-txt {
+      font-size: 70px;
+    }
+    .hack-txt {
+      font-size: 50px;
+      margin-top: -40px;
+    }
+    .hero-img {
+      width: 200px;
+      margin-top: 40px;
+    }
+    .snow {
+      position: absolute;
+      bottom: -100px;
+      margin-top: 400px;
+      opacity: 0.6;
+    }
+    .hero-btn{
+      font-size: 20px;
+      padding: 10px 30px;
+    }
   }
 }
