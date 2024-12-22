@@ -8,7 +8,7 @@ import PRIZE from "../../assets/images/prize.svg";
 import CALL from "../../assets/images/call.png";
 import QN from "../../assets/images/qn.svg";
 
-import SNOW from '../../assets/images/snow.svg'
+import SNOW from "../../assets/images/snow.svg";
 
 const Home = () => {
   const rules = [
@@ -56,7 +56,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+      <footer>
+        <a href="https://abhinav-k-e.github.io/"> Build and Designed by Abhinav K E</a>
+        <img src={SNOW} className="foot-img" alt="" />
+      </footer>
     </div>
   );
 };

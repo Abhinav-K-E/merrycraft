@@ -193,6 +193,33 @@ a{
   text-decoration: none;
 }
 
+footer{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  color: #ffffffd2;
+  position: relative;
+  min-height: 160px;
+  max-height: 340px;
+  overflow: hidden;
+  padding: 20px;
+  padding-bottom: 40px;
+
+  a{
+    color: #fff;
+    margin-left: 5px;
+    z-index: 9999;
+  }
+  .foot-img{
+    position: absolute;
+    margin-bottom: -600px;
+    left: 0;
+    width: 100%;
+    opacity: 0.5;
+  }
+}
 @media (max-width:800px) {
   .guidelines{
     padding: 20px;
